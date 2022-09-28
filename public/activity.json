@@ -1,0 +1,38 @@
+[
+    {
+        "id": "1",
+        "time": 60,
+        "img": "https://play-lh.googleusercontent.com/0oYvZwguabrJ-wXdGy6SzZNpjwvQymyD0eH-J4tKAT0n-6QqOpNapWlis8pFtf3K5z8",
+        "name": "Fishing"
+    },
+    {
+        "id": "2",
+        "time": 40,
+        "img": "https://play-lh.googleusercontent.com/xFGWrUuOt0QWnO3srQBtUBM_pc138T2fRYgYUxnaUPhqbs8MhLw2ZK8lIZykwMUucg",
+        "name": "Playing Carrom"
+    },
+    {
+        "id": "3",
+        "time": 30,
+        "img": "https://image.benq.com/is/image/benqco/S15-1200X600?$ResponsivePreset$",
+        "name": "Playing Fifa"
+    },
+    {
+        "id": "4",
+        "time": 60,
+        "img": "https://media.istockphoto.com/photos/rear-view-of-a-couple-watching-tv-while-relaxing-on-the-sofa-at-home-picture-id1132715308?k=20&m=1132715308&s=612x612&w=0&h=XCgQ-xuTiphLCkIYv2A9GBLAsFkV5cHxd69tpNVoKoc=",
+        "name": "Watching TV"
+    },
+    {
+        "id": "5",
+        "time": 30,
+        "img": "https://p77-sign-va.tiktokcdn.com/tos-maliva-avt-0068/84a3db164b6caa90ce2f338cfc90f177~c5_720x720.jpeg?x-expires=1664485200&x-signature=A%2FvZQvoMgy6DwIXcTo3Ram%2BlLeg%3D",
+        "name": "Singing"
+    },
+    {
+        "id": "6",
+        "time": 40,
+        "img": "https://images.unsplash.com/photo-1506880018603-83d5b814b5a6?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8cmVhZGluZ3xlbnwwfHwwfHw%3D&w=1000&q=80",
+        "name": "Reading Books"
+    }
+]
