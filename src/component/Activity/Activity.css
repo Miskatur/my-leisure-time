@@ -10,3 +10,8 @@
     margin-top: 80px;
     margin-right: 100px;
 }
+
+.cart-container {
+    position: sticky;
+    top: 0;
+}

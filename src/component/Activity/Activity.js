@@ -1,4 +1,5 @@
 import React, { useEffect, useState } from 'react';
+import Cart from '../Cart/Cart';
 import Task from '../Task/Task';
 import './Activity.css'
 
@@ -31,7 +32,7 @@ const Activity = () => {
                 </div>
 
                 <div className='cart-container'>
-
+                    <Cart cart={cart}></Cart>
                 </div>
             </div>
         </div>
