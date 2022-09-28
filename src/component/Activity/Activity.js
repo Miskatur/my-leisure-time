@@ -10,9 +10,13 @@ const Activity = () => {
             .then(data => setActivities(data))
     }, [])
 
+    const [cart, setCart] = useState([])
     const handleAddToCart = (selectedTask) => {
 
+        const newCart = [...cart, selectedTask]
+        setCart(newCart)
     }
+
 
     return (
         <div>
@@ -27,7 +31,7 @@ const Activity = () => {
                 </div>
 
                 <div className='cart-container'>
-                    <h2>heuyj ju</h2>
+
                 </div>
             </div>
         </div>
