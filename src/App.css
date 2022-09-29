@@ -33,6 +33,14 @@
   background-color: rgb(236, 208, 192);
 }
 
+
+@media screen and (max-width : 568px) {
+  .full-website {
+    padding: 10px;
+    background-color: rgb(236, 208, 192);
+  }
+}
+
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);

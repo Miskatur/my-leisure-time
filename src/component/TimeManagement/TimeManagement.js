@@ -2,11 +2,11 @@ import React, { useState } from 'react';
 import './Timemanagement.css'
 
 const TimeManagement = (props) => {
-    const [breakTime, setBreakTime] = useState(0)
+    const [breakTimes, setBreakTimes] = useState(0)
 
     const handleBreakTime = (e) => {
-        // const selectedBreak = e.key.innertext
-        // setBreakTime(selectedBreak)
+        const newBreakTime = (e.target.innerText);
+        setBreakTimes(newBreakTime)
     }
 
     return (
@@ -24,7 +24,7 @@ const TimeManagement = (props) => {
             </div>
             <h2>Time Management </h2>
             <h3>Total Time : {props.total}</h3>
-            <h3>Break Time : {breakTime} </h3>
+            <h3>Break Time : {breakTimes} </h3>
 
         </div>
     );
