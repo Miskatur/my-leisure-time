@@ -4,6 +4,7 @@ import Cart from '../Cart/Cart';
 import Task from '../Task/Task';
 import './Activity.css'
 
+
 const Activity = () => {
     const [activities, setActivities] = useState([])
     useEffect(() => {

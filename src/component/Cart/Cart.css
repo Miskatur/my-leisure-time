@@ -12,3 +12,8 @@
     border: none;
     border-radius: 10px;
 }
+
+#btn-complete:hover {
+    background-color: rgb(255, 87, 51);
+    cursor: pointer;
+}
