@@ -1,4 +1,14 @@
 .cart {
     position: sticky;
-    top: 5%;
+    top: 0%;
+}
+
+#btn-complete {
+    width: 100%;
+    margin: 10px auto;
+    font-size: 16px;
+    color: white;
+    background-color: rgb(144, 12, 62);
+    border: none;
+    border-radius: 10px;
 }

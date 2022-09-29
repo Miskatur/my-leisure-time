@@ -6,11 +6,11 @@ const Break = () => {
         <div>
             <h2>Add a Break</h2>
             <div className='time-box'>
-                <h5 className="time">5</h5>
-                <h5 className="time">10</h5>
-                <h5 className="time">15</h5>
-                <h5 className="time">20</h5>
-                <h5 className="time">25</h5>
+                <button className="time">5</button>
+                <button className="time">10</button>
+                <button className="time">15</button>
+                <button className="time">20</button>
+                <button className="time">25</button>
             </div>
 
         </div>
