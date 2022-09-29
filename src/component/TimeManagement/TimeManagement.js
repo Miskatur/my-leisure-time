@@ -1,12 +1,19 @@
-import React, { useState } from 'react';
+import React, { useEffect, useState } from 'react';
 import './Timemanagement.css'
-
 const TimeManagement = (props) => {
-    const [breakTimes, setBreakTimes] = useState(0)
+    const [breakTimes, setBreakTimes] = useState(0);
+    useEffect(() => {
+        const existData = JSON.parse(localStorage.getItem('data'))
+        if (existData) {
+            setBreakTimes(existData)
+        }
+    }, [])
 
     const handleBreakTime = (e) => {
         const newBreakTime = (e.target.innerText);
+        localStorage.setItem('data', JSON.stringify(newBreakTime));
         setBreakTimes(newBreakTime)
+
     }
 
     return (
