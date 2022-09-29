@@ -1,9 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import Cart from '../Cart/Cart';
-
 import Task from '../Task/Task';
 import './Activity.css'
-
 
 const Activity = () => {
     const [activities, setActivities] = useState([])
@@ -19,7 +17,6 @@ const Activity = () => {
         const newCart = [...cart, selectedTask]
         setCart(newCart)
     }
-
 
     return (
         <div>

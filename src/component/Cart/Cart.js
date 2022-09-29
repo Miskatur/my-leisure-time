@@ -1,7 +1,3 @@
-// import React, { useState } from 'react';
-// import Break from '../Break/Break';
-
-
 import React from 'react';
 import Personal from '../Personal/Personal';
 import TimeManagement from '../TimeManagement/TimeManagement';
@@ -19,15 +15,12 @@ const Cart = (props) => {
     }
 
     const handleToast = () => {
-        // toast("You have Completed your Todays task")
-        console.log('clicked')
         toast("You have Completed your Todays task")
     }
 
     return (
         <div className='cart'>
             <Personal></Personal>
-            {/* <Break ></Break> */}
             <TimeManagement total={total}></TimeManagement>
             <button id='btn-complete' onClick={handleToast}><p>Activities Completed</p></button>
             <ToastContainer />
